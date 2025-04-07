@@ -9,10 +9,10 @@ header('Access-Control-Allow-Headers: Content-Type'); // Cho phép các header
 header('Content-Type: application/json'); // Định dạng JSON cho output
 // Kết nối cơ sở dữ liệu
 function connectDB() {
-    $serverName = "DESKTOP-4CDMDCJ"; 
-    $database = "database2";        
-    $username = "";                
-    $password = "";              
+    $serverName = "DESKTOP-4CDMDCJ"; // thay serverName
+    $database = "database2";     // thay database
+    $username = "";                // thay username
+    $password = "";              // thay password
 
     try {
         $pdo = new PDO("sqlsrv:Server=$serverName;Database=$database", $username, $password);
