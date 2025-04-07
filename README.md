@@ -33,4 +33,4 @@ Frontend: The backend returns the result (success or error), and React updates t
   5. Open db_connection.php in folder server change server name, database name,... and  run ' npm start ' 
   6. Navigate to client web: http://localhost:3000
   7. Change directory to this repository: `cd \Order_Management_System\Order_Management_System-main\server`
-  8. Run ' php -S localhost:8000'
+  8. Run ' php -S localhost:8000 '
