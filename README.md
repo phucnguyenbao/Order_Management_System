@@ -1,7 +1,7 @@
 # The Delivery Management System
 
 The Delivery Management System is a comprehensive technological solution that helps
-businesses optimize their shipping process, from order receipt to final delivery. W
+businesses optimize their shipping process, from order receipt to final delivery.
 
 ## Technology Stack
 - Front-end: ReactJS and other additional libraries provided by npm.
