@@ -6,8 +6,7 @@ error_reporting(E_ALL);
 header('Access-Control-Allow-Origin: *'); // Cho phép truy cập từ mọi nguồn
 header('Access-Control-Allow-Methods: GET, POST, OPTIONS'); // Cho phép các phương thức HTTP
 header('Access-Control-Allow-Headers: Content-Type'); // Cho phép các header
-header('Content-Type: application/json'); // Định dạng JSON cho output
-// Kết nối cơ sở dữ liệu
+header('Content-Type: application/json'); // Định dạng JSON
 function connectDB() {
     $serverName = "DESKTOP-4CDMDCJ"; // thay serverName
     $database = "database2";     // thay database
